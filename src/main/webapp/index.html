@@ -1,7 +1,7 @@
 <!doctype html>
 <link rel="stylesheet"
 	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-<html ng-app lang="en">
+<html ng-app="recipes" lang="en">
 <head>
 <title>Hello AngularJS</title>
 <script
@@ -11,7 +11,7 @@
 
 <body>
 	<div class="container">
-		<div ng-controller="Recipes" class="row">
+		<div ng-controller="recipesController" class="row">
 			<ul>
 				<li ng-repeat="recipe in recipes"><span>{{phone.name}}</span>
 					<p>The ID is {{recipe.id}}</p>
